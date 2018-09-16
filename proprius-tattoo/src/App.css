@@ -1,14 +1,14 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
+  background-color: black;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
+#homepage {
+  height: 100vw;
+  background-color: black;
 }
