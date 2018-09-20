@@ -12,3 +12,7 @@ body {
   height: 100vw;
   background-color: black;
 }
+
+.storeName {
+  font-family: 'Oldenburg', cursive;
+}
