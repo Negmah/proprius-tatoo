@@ -1,18 +1,69 @@
 body {
   width: 100vw;
   height: 100vh;
+  background-color: #0d0a0b;
 }
 
 .App {
   text-align: center;
-  background-color: black;
+  background-color: #0d0a0b;
 }
 
 #homepage {
   height: 100vw;
-  background-color: black;
+  background-color: #0d0a0b;
+}
+
+hr {
+  border-color: rgba(255,99,71,1);
+  display: block;
+  height: 10px;
+  border: 0;
+  border-top: 1px solid rgba(255,99,71,1);
+  margin: 1em 0;
+  padding: 0; 
 }
 
 .storeName {
-  font-family: 'Oldenburg', cursive;
+  font-family: 'Original Surfer', cursive;
+  color: rgb(243, 239, 245);
+}
+
+.navlinks {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: 100;
+  color: rgb(69, 73, 85);
+}
+
+.gradient-black {
+  background: rgba(117,117,117,1);
+  background: -moz-linear-gradient(-45deg, rgba(117,117,117,1) 0%, rgba(110,108,110,1) 18%, rgba(99,98,99,1) 52%, rgba(71,71,71,1) 89%, rgba(59,59,59,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(117,117,117,1)), color-stop(18%, rgba(110,108,110,1)), color-stop(52%, rgba(99,98,99,1)), color-stop(89%, rgba(71,71,71,1)), color-stop(100%, rgba(59,59,59,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(117,117,117,1) 0%, rgba(110,108,110,1) 18%, rgba(99,98,99,1) 52%, rgba(71,71,71,1) 89%, rgba(59,59,59,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(117,117,117,1) 0%, rgba(110,108,110,1) 18%, rgba(99,98,99,1) 52%, rgba(71,71,71,1) 89%, rgba(59,59,59,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(117,117,117,1) 0%, rgba(110,108,110,1) 18%, rgba(99,98,99,1) 52%, rgba(71,71,71,1) 89%, rgba(59,59,59,1) 100%);
+  background: linear-gradient(135deg, rgba(117,117,117,1) 0%, rgba(110,108,110,1) 18%, rgba(99,98,99,1) 52%, rgba(71,71,71,1) 89%, rgba(59,59,59,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#3b3b3b', GradientType=1 );
+}
+
+.gradient-yellow {
+  background: rgba(241,231,103,1);
+  background: -moz-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: linear-gradient(135deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+}
+
+.gradient-red {
+  background: rgba(255,99,71,1);
+  background: -moz-linear-gradient(-45deg, rgba(255,99,71,1) 0%, rgba(255,99,71,1) 45%, rgba(246,41,12,1) 73%, rgba(231,56,39,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,99,71,1)), color-stop(45%, rgba(255,99,71,1)), color-stop(73%, rgba(246,41,12,1)), color-stop(100%, rgba(231,56,39,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(255,99,71,1) 0%, rgba(255,99,71,1) 45%, rgba(246,41,12,1) 73%, rgba(231,56,39,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(255,99,71,1) 0%, rgba(255,99,71,1) 45%, rgba(246,41,12,1) 73%, rgba(231,56,39,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(255,99,71,1) 0%, rgba(255,99,71,1) 45%, rgba(246,41,12,1) 73%, rgba(231,56,39,1) 100%);
+  background: linear-gradient(135deg, rgba(255,99,71,1) 0%, rgba(255,99,71,1) 45%, rgba(246,41,12,1) 73%, rgba(231,56,39,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6347', endColorstr='#e73827', GradientType=1 );
 }
